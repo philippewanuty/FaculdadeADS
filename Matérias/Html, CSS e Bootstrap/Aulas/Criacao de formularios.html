@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criação de formularios</title>
+  </head>
+  <body>
+    <h1>Criação de formulários</h1>
+    <section>
+      <h2>Contato</h2>
+      <form method="GET" action="">
+        <fieldset>
+          <legend>Dados da viágem</legend>
+          <label>Nome:</label>
+          <input type="text" name="nome" required /> <br /><br />
+
+          <label>Email:</label>
+          <input type="email" name="Email" required id="" /><br /><br />
+
+          <label> data de ida:</label><br />
+          <input type="date" name="DataIda" required id="" /><br /><br />
+          <label>Data de volta:</label><br />
+          <input type="date" name="DataVolta" id="" /><br /><br />
+
+          <label>Quantidade de pessoas</label><br />
+          <input
+            type="number"
+            name="quantidadepessoas"
+            required
+            id="QuantidadePessoas"
+            value="1"
+            min="1"
+            max="10"
+          /><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Quais serviços deseja contratar ?</legend>
+          <label>
+            <input
+              type="checkbox"
+              name="passagens"
+              id="Passagens"
+              checked
+            />Compra de Passagens <br />
+          </label>
+          <label>
+            <input type="checkbox" name="hospedagem" id="Hospedagem" />Compra de
+            Hospedagem <br />
+            <label> </label>
+            <input
+              type="checkbox"
+              name="aluguelcarro"
+              id="AlugelCarro"
+            />Aluguel de Carro <br /> </label
+          ><br />
+
+          <label>Qual cidade deseja visitar?</label><br /><br />
+          <select name="cidades" id="cidades">
+            <option value="natal">Natal</option>
+            <option value="joao_pessoa" selected>João Pessoa</option>
+            <option value="fortaleza">Fortaleza</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Forma de pagamento</legend>
+          <label>
+            <input type="radio" name="formaPagamento" value="Crédito" />Cartão
+            de crédito </label
+          ><br />
+          <label>
+            <input
+              type="radio"
+              name="formaPagamento"
+              value="Pix"
+              checked
+            />Pix </label
+          ><br />
+          <label>
+            <input type="radio" name="formaPagamento" value="Boleto" />Boleto
+          </label>
+        </fieldset>
+
+        <label>Comentário:</label><br />
+        <textarea name="Comentário" id="" cols="30" rows="5"></textarea
+        ><br /><br />
+
+        <button>Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h3>Aprendizado</h3>
+      <p>
+        Nesta aula aprendi como fazer formulário, e como usar o método input
+        para adquirir dados dos usuário. <br />
+        Na continuaçao (Aula 06) aprendemos mais a fundo sobre formularios e
+        tipos dados para entrada, como Radio, checkbox, number e tags como
+        &lt;selected&gt que seria um tipo de formulário de seleção e  a tag de agrupamento de formulários &lt;fieldset&gt;,
+        onde necessita de uma tag &lt;legend&gt; para dar nome a esse
+        agrupamento.
+      </p>
+      <ul>
+        <li>&lt;label&gt; : Nomeia a informalçao que deverá ter no input</li>
+        <li>&lt;input&gt; : Tag responsável por coletar dados</li>
+        <li>&lt;button&gt; : botão para dar funcionalidade a uma acão</li>
+        <li>&lt;textarea&gt; : Campo para descrever informações</li>
+        <li>&lt;fieldset&gt; : tag de agrupamento de formulários</li>
+        <li>&lt;select&gt; : tag de formulário tipo seleção</li>
+        <li>&lt;legend&gt; : nomeia o agrupamento de formulários no &lt;select&gt;</li>
+      </ul>
+
+      <h3>Tipos de input</h3>
+      <ul>
+        <li>text: input de texto</li>
+        <li>numeber: input para escolha de numeros</li>
+        <li>radio : input de seleção única</li>
+        <li>checkbox : input de multipla seleção</li>
+        <li>date: input de data onde abre um calendário</li>
+        <li>Email: input de Email que apenas recebe o email da forma correta.</li>
+      </ul>
+
+      <h3>Métodos</h3>
+
+      <ul>
+        <li><b>required:</b> informa que um campo é necessário</li>
+
+        <li><b>type=""</b> campo para colocar o tipo de dado solicitado.</li>
+
+        <li><b>selected :</b> pré seleciona algo em um input de seleção</li>
+        <li>
+          <b>min/max="" :</b> informa a quantidade mínima e máxima em um input
+          number
+        </li>
+        <li>
+          <b>Selected :</b> deixa pré selecionado os inputs que necessitam de
+          escolha
+        </li>
+        <li>
+          <b>checked :</b> deixa pré selecionado os inputs que necessitam de
+          marcação
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nosso projeto</h2>
+      <p>
+        Confira como está indo o andamendo to projeto
+        <a href="../Atividades práticas/Mini projeto/index.html" target="_blank"
+          >aqui</a
+        >
+      </p>
+    </section>
+  </body>
+</html>
