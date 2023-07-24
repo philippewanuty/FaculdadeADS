@@ -9,7 +9,7 @@
     Repository of my ADS course - This will contain all the content as well as the work, work and projects carried out in the course.
   </p>
 
-</div> <br><br><br>
+</div> <br><br>
 
 <h2>Plano de Ensino</h2>
 
