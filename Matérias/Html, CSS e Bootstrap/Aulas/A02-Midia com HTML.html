@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mídia com Html</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <section>
+        <h1>Mídia com Html</h1>
+        <hr />
+        <h2>Aluno: Philippe Wanuty</h2>
+        <article>
+          <p>
+            Olá me chamo Philippe <br />
+            clique
+            <a href="https://www.linkedin.com/in/philippewanuty/">aqui</a> para
+            conhecer mais sobre mim.
+          </p>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <h2>Aprendizado</h2>
+          <p>
+            Nesta aula aprendemos como inserir imagens, e que precisamos usar a
+            tag semantica &lt;figure&gt; para deixar o código melhor estruturado
+          </p>
+        </article>
+
+        <article>
+          <h2>Adicionando uma imagem</h2>
+          <figure>
+            <img
+              width="200px"
+              height="200px"
+              src="images/HTML5_logo.svg"
+              alt="Logo Html 5"
+            />
+            <figcaption>Html 5 - Eu sou a descrição da foto</figcaption>
+          </figure>
+          <p>
+            Existe um atributo chamado target, que serve para direcionar para
+            onde deseja ser enviado após o click. Ex: _blank serve para criar
+            uma aba externa com o conteúdo
+          </p>
+        </article>
+
+        <article>
+          <h2>Adicionando um vídeo</h2>
+          <video
+            width="500px"
+            height="300px"
+            controls
+            poster="images/Poster mario.png"
+          >
+            <source
+              src="video/The Super Mario Bros. Movie _ Smash.mp4"
+              type="video/mp4"
+            />
+            Caso o vídeo nao carregar clique
+            <a href="video/The Super Mario Bros. Movie _ Smash.mp4">aqui</a> e
+            baixe.
+          </video>
+          <p>
+            Para adicionar um vídeo use a tag &lt;video&gt; em seguida o
+            &lt;source&gt; juntamente com o src. não esquecer de colocar o
+            parâmetro controls para poder adicionar o player no vídeo e o
+            &lt;poster&gt para coloar uma imagem na frente do player.
+          </p>
+        </article>
+
+        <article>
+          <h2>Adicionando música</h2>
+          <audio preload="metadata" controls loop>
+            <source
+              src="video/Ending Theme - Super Mario_ World_waKumDkYrDY.mp3"
+              type="audio/mpeg"
+            />
+  
+          </audio>
+        </article>
+
+        <article>
+          <h2>Adiciondo listas</h2>
+
+          <p>
+            Temos três tipos de listas ol - lista ordenada, ul - lista
+            desordenada, e dl - listas de descrição cada tipo tem a sua
+            peculiaridade.
+          </p>
+          <h4>lista desordenada</h4>
+          <ul>
+            <li>Banana</li>
+            <li>Maçã</li>
+            <li>Mamão</li>
+          </ul>
+          <h4>lista ordenada</h4>
+          <ol>
+            <li>Branco</li>
+            <li>preto</li>
+            <li>azul</li>
+          </ol>
+          <h4>lista de descrição</h4>
+          <dl>
+            <dt>coffe</dt>
+            <dd>black - hot drink</dd>
+            <dt>milk</dt>
+            <dd>white - cold drink</dd>
+            <dt>tea</dt>
+            <dd>green - warm drink</dd>
+          </dl>
+        </article>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Projeto</h2>
+      <p>
+        Confira como está indo o andamendo to projeto
+        <a href="../Atividades práticas/Mini projeto/index.html" target="_blank"
+          >aqui</a
+        >
+      </p>
+    </aside>
+
+    <footer></footer>
+  </body>
+</html>
