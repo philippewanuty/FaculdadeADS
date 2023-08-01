@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
    <head>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+         crossorigin="anonymous"
+      />
       <link rel="stylesheet" href="style.css" />
       <link
          rel="shortcut icon"
@@ -13,19 +19,62 @@
    </head>
    <body>
       <header>
-         <h1>Viagens Nordeste</h1>
-         <nav>
-            <ul>
-               <li>
-                  <a href="#">Quem somos</a>
-               </li>
-               <li>
-                  <a href="#">Cidades</a>
-               </li>
-               <li>
-                  <a href="#">Contato</a>
-               </li>
-            </ul>
+         <h1>Turismo Nordeste</h1>
+         <nav class="navbar navbar-expand-lg" style="background-color: #97b597">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">Turismo Nordeste</a>
+               <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+               >
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <div
+                  class="collapse navbar-collapse justify-content-end"
+                  id="navbarSupportedContent"
+               >
+                  <ul class="navbar-nav">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"
+                           >Pacotes</a
+                        >
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Guias</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a
+                           class="nav-link dropdown-toggle"
+                           href="#"
+                           role="button"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false"
+                        >
+                           Cidades
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="#">Natal</a></li>
+                           <li>
+                              <a class="dropdown-item" href="#">João Pessoa</a>
+                           </li>
+                           <li>
+                              <a class="dropdown-item" href="#">Fortaleza</a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true"
+                           >Quem somos</a
+                        >
+                     </li>
+                  </ul>
+               </div>
+            </div>
          </nav>
       </header>
       <main>
@@ -33,72 +82,34 @@
             <h2>Destinos nacionais</h2>
 
             <p>Os melhores pontos turísticos nordestinos você encontra aqui!</p>
-
-            <article>
-               <hr />
-               <h3>Natal</h3>
-
-               <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
-                  iure in soluta sunt totam repudiandae animi, enim molestias
-                  nulla voluptatibus minima distinctio dignissimos, velit quos!
-                  Id necessitatibus a veritatis totam.
-               </p>
-               <hr />
-               <figure>
+            <hr />
+            <div class="row">
+               <figure class="col text-center">
                   <img
-                     width="100%"
-                     height="100%"
                      src="imgs/Natal-Brasil.jpg"
                      alt="foto da praia de Ponta negra, Natal-RN"
                   />
-                  <figcaption>
+                  <figcaption class="col text-center">
                      Morro do careca, Ponta negra, Natal-RN
                   </figcaption>
                </figure>
-            </article>
-            <article>
-               <hr />
-               <h3>Joao Pessoa</h3>
 
-               <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                  dolor nesciunt quas corrupti molestiae? Omnis, deleniti
-                  nesciunt! Nesciunt voluptas magnam, blanditiis odio
-                  necessitatibus velit sapiente beatae incidunt maiores quod
-                  numquam.
-               </p>
-               <hr />
-               <figure>
+               <figure class="col text-center">
                   <img
-                     width="100%"
-                     height="100%"
                      src="imgs/Joao pessoa -Brasil.jpg"
                      alt=" foto da Praia de Tambaú, em Joao pessoa - PB"
                   />
                   <figcaption>Praia de Tambaú, Joao pessoa - PB</figcaption>
                </figure>
-            </article>
-            <article>
-               <hr />
-               <h3>Fortaleza</h3>
-               <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi tenetur, quo, repellendus pariatur perferendis
-                  delectus a reiciendis ipsam debitis dolorum doloribus. Ad qui
-                  commodi, neque quisquam iure quasi architecto assumenda.
-               </p>
-               <hr />
-               <figure>
+
+               <figure class="col text-center">
                   <img
-                     width="100%"
-                     height="100%"
                      src="imgs/Fortaleza-Brasil.jpeg"
                      alt="Foto da praia do Meireles, Fortaleza - CE"
                   />
                   <figcaption>Praia do Meireles, Fortaleza - CE</figcaption>
                </figure>
-            </article>
+            </div>
          </section>
 
          <section>
@@ -139,7 +150,6 @@
                      <td>R$: 60,00</td>
                   </tr>
                </tbody>
-               
             </table>
          </section>
 
@@ -165,17 +175,6 @@
                   /><br /><br />
                   <label>Data de volta:</label><br />
                   <input type="date" name="DataVolta" id="" /><br /><br />
-
-                  <label>Quantidade de pessoas</label><br />
-                  <input
-                     type="number"
-                     name="quantidadepessoas"
-                     required
-                     id="QuantidadePessoas"
-                     value="1"
-                     min="1"
-                     max="10"
-                  /><br /><br />
                </fieldset>
 
                <fieldset>
@@ -203,44 +202,7 @@
                         id="AlugelCarro"
                      />Aluguel de Carro <br /> </label
                   ><br />
-
-                  <label>Qual cidade deseja visitar?</label><br /><br />
-                  <select name="cidades" id="cidades">
-                     <option value="natal">Natal</option>
-                     <option value="joao_pessoa" selected>João Pessoa</option>
-                     <option value="fortaleza">Fortaleza</option>
-                  </select>
                </fieldset>
-
-               <fieldset>
-                  <legend>Forma de pagamento</legend>
-                  <label>
-                     <input
-                        type="radio"
-                        name="formaPagamento"
-                        value="Crédito"
-                     />Cartão de crédito </label
-                  ><br />
-                  <label>
-                     <input
-                        type="radio"
-                        name="formaPagamento"
-                        value="Pix"
-                        checked
-                     />Pix </label
-                  ><br />
-                  <label>
-                     <input
-                        type="radio"
-                        name="formaPagamento"
-                        value="Boleto"
-                     />Boleto
-                  </label>
-               </fieldset>
-
-               <label>Comentário:</label><br />
-               <textarea name="Comentário" id="" cols="30" rows="5"></textarea
-               ><br /><br />
 
                <button>Enviar</button>
             </form>
@@ -248,7 +210,21 @@
       </main>
 
       <footer>
-         <p>Desenvolvido por <a href="https://www.linkedin.com/in/philippewanuty/" target="_blank">Philippe Wanuty</a> em 22/07/2023</p>
+         <p>
+            Desenvolvido por
+            <a
+               href="https://www.linkedin.com/in/philippewanuty/"
+               target="_blank"
+               >Philippe Wanuty</a
+            >
+            em 22/07/2023
+         </p>
       </footer>
+
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+         crossorigin="anonymous"
+      ></script>
    </body>
 </html>
