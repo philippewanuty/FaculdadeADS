@@ -158,14 +158,28 @@
             <h3>Formulário de viagem</h3>
             <form method="GET" action="">
                <fieldset>
-                  <legend>Dados da viágem</legend>
-                  <label>Nome:</label>
-                  <input type="text" name="nome" required />
-                  <br /><br />
+                  <legend>Dados da viagem</legend>
+                  <div class="mb-3">
+                     <label class="form-label" for="nome"> Nome: </label>
+                     <input
+                        class="form-control"
+                        type="text"
+                        name="nome"
+                        id="nome"
+                     />
+                  </div>
 
-                  <label>Email:</label>
-                  <input type="email" name="Email" required id="" /><br /><br />
-
+                  <div class="mb-3">
+                     <label class="form-label" for="email">Email:</label>
+                     <input
+                        class="form-control"
+                        type="email"
+                        name="email"
+                        required
+                        id="email"
+                     />
+                  </div>
+TODO
                   <label> data de ida:</label><br />
                   <input
                      type="date"
