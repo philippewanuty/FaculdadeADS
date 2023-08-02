@@ -1,0 +1,3 @@
+Nesta aula aprendi como funciona o Array e suas funções
+
+O Java script não distingue o tipo do elemento em um array (string,number, etc..)
