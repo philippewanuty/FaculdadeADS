@@ -22,7 +22,7 @@
 
   <ul>
     <li> <a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Introdu%C3%A7%C3%A3o%20de%20desv.%20web">Introdução a desenvolvimento web </a></li>
-    <li> <a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Html%2C%20CSS%20e%20Bootstrap">HTML,CSS,Bootstrap</a></li>
-    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/UX%2CUI">UX/UI</li>
-    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/JavaScript">JavaScript</li>
+    <li><a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Html%2C%20CSS%20e%20Bootstrap">HTML,CSS,Bootstrap</a></li>
+    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/UX%2CUI">UX/UI</a></li>
+    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/JavaScript">JavaScript</a></li>
   </ul>
