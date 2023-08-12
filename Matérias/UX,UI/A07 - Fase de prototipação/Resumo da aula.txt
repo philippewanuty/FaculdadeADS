@@ -1,0 +1,3 @@
+Nessa aula aprendemos sobre quais tipos de protótipos existem, os de alta , medida e baixa fidelidade, vimos 
+também sobre os tipos de ferramentas de prototipação e dentre as várias que existem no mercado se destacam 
+o Figma e o XP. vimos também sobre a entrega do arquivo (handoff) e como é entregue o protótipo para os Dev front end desenvolver.
