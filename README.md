@@ -14,15 +14,15 @@
 <h2>Plano de Ensino</h2>
 
   <ul>
-    <li> <a href="https://github.com/philippewanuty/Faculdade-ADS/blob/main/Mat%C3%A9rias/Ementas%20-%20An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas.pdf">Ementas</a></li>
+    <li> <a href="https://github.com/philippewanuty/Faculdade-ADS/blob/main/Mat%C3%A9rias/Ementas%20-%20An%C3%A1lise%20e%20Desenvolvimento%20de%20Sistemas.pdf" target="_blank">Ementas</a></li>
   </ul>
 
   
 <h2>Matérias</h2>
 
   <ul>
-    <li> <a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Introdu%C3%A7%C3%A3o%20de%20desv.%20web">Introdução a desenvolvimento web </a></li>
-    <li><a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Html%2C%20CSS%20e%20Bootstrap">HTML,CSS,Bootstrap</a></li>
-    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/UX%2CUI">UX/UI</a></li>
-    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/JavaScript">JavaScript</a></li>
+    <li> <a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Introdu%C3%A7%C3%A3o%20de%20desv.%20web" target="_blank">Introdução a desenvolvimento web </a></li>
+    <li><a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Html%2C%20CSS%20e%20Bootstrap" target="_blank">HTML,CSS,Bootstrap</a></li>
+    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/UX%2CUI" target="_blank">UX/UI</a></li>
+    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/JavaScript" target="_blank">JavaScript</a></li>
   </ul>
