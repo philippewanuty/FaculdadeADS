@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="DOM.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="estilo">div estilo 1</div>
+    <div class="estilo">dis estilo 2</div>
+    <p class="estilo">Elemento p com estilo</p>
+    <p>isso é <span class="estilo">elemento span</span>dentro de um p</p>
+  </body>
+
+  <script>
+    const listestilo = document.querySelectorAll('.estilo');
+    for (i = 0; i < listestilo.length; i++) {
+      listestilo[i].style.backgroundColor = 'blue';
+      listestilo[i].style.color = 'white';
+      listestilo[i].innerText = listestilo[i].innerText.toUpperCase();
+    }
+  </script>
+</html>
