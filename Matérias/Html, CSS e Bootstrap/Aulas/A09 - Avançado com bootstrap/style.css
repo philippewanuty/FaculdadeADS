@@ -1,15 +1,15 @@
 @charset "UTF-8";
 
 :root {
-   --cor-one: #1e5036;
+   --cor-one: #0c4b9d;
    --cor-two: #4f7453;
    --cor-three: #668c68;
-   --cor-four: #a6c4a8;
+   --cor-four: rgb(234, 237, 248);
    --cor-five: #97b597;
 }
 
 header {
-   background-color: green;
+   background-color: #ffb700;
   padding: 0px 10px 10px 10px;
 }
 
@@ -29,8 +29,8 @@ body {
    font-size: 2.7em;
    text-align: center;
    text-transform: uppercase;
-   text-shadow: 2px 2px 2px rgb(0, 0, 0);
-   color: green;
+   text-shadow: 1px 1px 1px rgb(0, 0, 0);
+   color: white;
    padding: 15px 0px 0px 0px;
    margin: 0px;
 }
