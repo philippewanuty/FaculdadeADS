@@ -23,5 +23,5 @@
     <li> <a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Introdu%C3%A7%C3%A3o%20de%20desv.%20web" target="_blank">Introduction to web development </a></li>
     <li><a href="https://philippewanuty.com/FaculdadeADS/Matérias/Html,%20CSS%20e%20Bootstrap/Aulas/Index.html" target="_blank">HTML,CSS,Bootstrap (Front End Development)</a></li>
     <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/UX%2CUI" target="_blank">UX/UI (User Experience)</a></li>
-    <li><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/JavaScript" target="_blank">JavaScript (Dynamic development)</a></li>
+    <li><a href="https://philippewanuty.com/FaculdadeADS/Matérias/JavaScript/ContentCollection/Index.html" target="_blank">JavaScript (Dynamic development)</a></li>
   </ul>
