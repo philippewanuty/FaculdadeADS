@@ -51,6 +51,17 @@ a:hover {
   text-decoration: none;
 }
 
+.certificate {
+  color: green
+
+  
+
+}
+.certificate:hover {
+  color: blueviolet;
+  text-decoration: none;
+}
+
 b {
   color: blue;
 }
