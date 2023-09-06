@@ -1,0 +1,15 @@
+main {
+  background-color: rgb(186, 186, 251);
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.553);
+  font-family: Arial, Helvetica, sans-serif;
+}
