@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise Class 14</title>
+
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-color: rgb(136, 136, 240);
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px black;
+      }
+
+      input,
+      select {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <!---Inputs-->
+      <div>
+        <form class="container">
+          <h2>Exercise Class 14</h2>
+
+          <label for="Name">Name: </label>
+          <input type="text" id="InputName" required /><br />
+
+          <label for="Age">Age: </label>
+          <input type="text" id="InputAge" required /><br />
+
+          <label for="informations">Job Chose</label>
+          <select id="jobChose" onchange="toggleFields()">
+            <option value="" selected disabled>Selecione uma opção</option>
+            <option value="Gerente">Gerente</option>
+            <option value="Desenvolvedor">Desenvolvedor</option>
+          </select>
+
+          <div id="GerenteFields" style="display: none">
+            <label for="Departament">Departament:</label>
+            <input type="text" id="InputDep" required /><br />
+          </div>
+
+          <div id="DesenvolvedorFields" style="display: none">
+            <label for="Programing Language">Programming language: </label>
+            <input type="text" id="InputLang" required /><br />
+          </div>
+
+          <input type="button" value="Add" onclick="Createfuncionary()" />
+          <input type="button" value="Print" onclick="Print()" />
+          <input type="button" value="Limpar Dados" onclick="LimparDados()" />
+        </form>
+      </div>
+      <!--Fim dos inputs-->
+
+      <div class="container">
+        <h2>informations</h2>
+        <div id="employeeInform"></div>
+      </div>
+    </main>
+
+    <script>
+      let funcionarios = [[], []];
+
+      function exibirErro(message) {
+        document.getElementById('employeeInform').innerHTML = `<p style="color: red">${message}</p>`;
+      }
+
+      function resetEmployeeInform() {
+        document.getElementById('employeeInform').innerHTML = '';
+      }
+
+      function Createfuncionary() {
+        try {
+          var nome = document.getElementById('InputName').value;
+          var idade = document.getElementById('InputAge').value;
+          var cargo = document.getElementById('jobChose').value;
+          var departamento = document.getElementById('InputDep').value;
+          var linguagem = document.getElementById('InputLang').value;
+
+          if (!nome || !idade || !cargo || !departamento || (cargo == 'Desenvolvedor' && !linguagem)) {
+            throw new Error('Todos os campos devem ser preenchidos.');
+          }
+
+          if (cargo === 'Gerente') {
+            funcionarios[0].push({
+              nome: nome,
+              idade: idade,
+              cargo: cargo,
+              departamento: departamento,
+            });
+          } else if (cargo === 'Desenvolvedor') {
+            funcionarios[1].push({
+              nome: nome,
+              idade: idade,
+              cargo: cargo,
+              linguagem: linguagem,
+            });
+          }
+
+          document.getElementById('employeeInform').innerHTML = `<br> <p style="color: red">Funcionario adicionado!</p>`;
+        } catch (error) {
+          exibirErro(error.message);
+        }
+      }
+
+      function Print() {
+        const infoManager = funcionarios[0].map((gerente) => {
+          return `
+          <h3>Gerente</h3> 
+          <p>Nome: ${gerente.nome}</p>
+          <p>Idade: ${gerente.idade}</p>
+          <p>Cargo: ${gerente.cargo}</p>
+          <p>Departamento: ${gerente.departamento}</p>
+          <hr />
+        `;
+        });
+        const infoDev = funcionarios[1].map((dev) => {
+          return `
+          <h3>Desenvolvedor</h3>
+          <p>Nome: ${dev.nome}</p>
+          <p>Idade: ${dev.idade}</p>
+          <p>Cargo: ${dev.cargo}</p>
+          <p>Linguagem: ${dev.linguagem}</p>
+          <hr />
+        `;
+        });
+        document.getElementById('employeeInform').innerHTML = infoManager + infoDev;
+      }
+
+      function toggleFields() {
+        var jobChose = document.getElementById('jobChose').value;
+        var gerenteFields = document.getElementById('GerenteFields');
+        var desenvolvedorFields = document.getElementById('DesenvolvedorFields');
+
+        if (jobChose == 'Gerente') {
+          gerenteFields.style.display = 'block';
+          desenvolvedorFields.style.display = 'none';
+        } else if (jobChose == 'Desenvolvedor') {
+          gerenteFields.style.display = 'none';
+          desenvolvedorFields.style.display = 'block';
+        }
+      }
+
+      function LimparDados() {
+        funcionarios = [[], []];
+        document.getElementById('employeeInform').innerHTML = `<br><p style="color: red"> Os dados foram limpados!</p>`;
+      }
+    </script>
+  </body>
+</html>
