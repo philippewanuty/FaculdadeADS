@@ -35,7 +35,7 @@
     <td>1º Período</td>
     <td>Introduction to web development </td>
     <td><a href="https://github.com/philippewanuty/Faculdade-ADS/tree/main/Mat%C3%A9rias/Introdu%C3%A7%C3%A3o%20de%20desv.%20web" target="_blank">Link</a></td>
-    <td>------</td>
+    <td>Noções básicas sobre programação e internet</td>
 
     
   </tr>
@@ -43,7 +43,7 @@
     <td>1º Período</td>
     <td>HTML,CSS,Bootstrap (Front End Development)</td>
     <td><a href="https://philippewanuty.com/FaculdadeADS/Matérias/Html,%20CSS%20e%20Bootstrap/Aulas/Index.html" target="_blank">Link</a></td>
-    <td>------</td>
+    <td>Noções básicas de html,css e bootstrap</td>
 
     
   </tr>
@@ -51,7 +51,7 @@
     <td>1º Período</td> 
     <td>UX/UI (User Experience)</td>
     <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Mat%C3%A9rias/UX%2CUI" target="_blank">Link</a></td>
-    <td>------</td>
+    <td>Noções básicas sobre metodoligias ágeis e algumas informacoes sobre UX/UI</td>
 
   </tr>
 
@@ -59,11 +59,37 @@
     <td>1º Período</td> 
     <td>JavaScript (Dynamic development)</td>
     <td><a href="https://philippewanuty.com/FaculdadeADS/Matérias/JavaScript/ContentCollection/Index.html" target="_blank">Link</a></td>
-    <td>------</td>
+    <td>Noções básicas sobre JavaScript</td>
+
+  </tr>
+
+  
+   <tr>
+    <td>1º Período</td> 
+    <td>Lógica de programação</td>
+    <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Matérias/Lógica%20de%20Programação" target="_blank">Link</a></td>
+    <td>Noções básicas sobre Java</td>
+
+  </tr>
+
+  
+   <tr>
+    <td>1º Período</td> 
+    <td>Empreendedorismo e novos negócios</td>
+    <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Matérias/Empreendedorismo%20e%20Criação%20de%20Novos%20Negócios">Link</a></td>
+    <td>Noções básicas sobre Empreendedorismo</td>
 
   </tr>
   
 </table>
+
+
+<br>
+<br>
+<br>
+
+
+<p><b>Nota:</b> O meu foco em fazer esta faculdade é apenas o diploma, pela minha experiência no primeiro período verifiquei que o conteúdo ministrado pelos professores é bem raso, o que eu já esperava de uma faculdade online, o que me leva constantemente em adquirir conhecimento em outros cursos de qualidade. </p>
 
 
 
