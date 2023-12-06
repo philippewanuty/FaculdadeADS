@@ -279,7 +279,7 @@
 <br>
 
 
-<p><b>Nota:</b> O meu foco em fazer esta faculdade é apenas o diploma, pela minha experiência no primeiro período verifiquei que o conteúdo ministrado pelos professores é bem raso, o que eu já esperava de uma faculdade online, o que me leva constantemente em adquirir conhecimento em outros cursos de qualidade. </p>
+
 
 
 
