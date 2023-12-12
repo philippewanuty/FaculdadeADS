@@ -97,38 +97,46 @@
   
   <tr>
     <td>2º Período</td>
-    <td>I-----</td>
+    <td>Design de Software</td>
     <td><a href="" target="_blank">-----</a></td>
     <td>-----</td>    
   </tr>
   
  <tr>
     <td>2º Período</td>
-    <td>I-----</td>
+    <td>Estrutura de dados e sistemas inteligentes</td>
     <td><a href="" target="_blank">-----</a></td>
     <td>-----</td>    
   </tr>
 
    <tr>
     <td>2º Período</td>
-    <td>I-----</td>
+    <td>Modelagem de banco de dados</td>
     <td><a href="" target="_blank">-----</a></td>
     <td>-----</td>    
   </tr>
   
   <tr>
     <td>2º Período</td>
-    <td>I-----</td>
+    <td>Programação 1</td>
     <td><a href="" target="_blank">-----</a></td>
     <td>-----</td>    
   </tr>
 
   <tr>
     <td>2º Período</td>
-    <td>I-----</td>
+    <td>Prática integradora de desenvolvimento</td>
     <td><a href="" target="_blank">-----</a></td>
     <td>-----</td>    
   </tr>
+
+  <tr>
+    <td>2º Período</td>
+    <td>Arquitetura de computadores do Sec XXI</td>
+    <td><a href="" target="_blank">-----</a></td>
+    <td>-----</td>    
+  </tr>
+  
 </table>
 
 <table>
