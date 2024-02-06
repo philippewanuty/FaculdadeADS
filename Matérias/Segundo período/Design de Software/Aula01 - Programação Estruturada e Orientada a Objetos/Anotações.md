@@ -1,4 +1,9 @@
 # DESIGN DE SOFTWARE
+
+O que é Programação orientada a objeto ?
+
+    A programação orientada a objetos (POO) é um paradigma de programação que se baseia na concepção de "objetos", que podem conter dados na forma de campos (também conhecidos como atributos ou propriedades) e códigos na forma de métodos (também conhecidos como funções ou procedimentos). Esses objetos podem interagir entre si através de mensagens, e o paradigma enfatiza conceitos como encapsulamento, herança e polimorfismo para modelar sistemas complexos de forma mais modular, reutilizável e compreensível.
+
 O que é um sistema? 
 
     é um conjunto de programas interrelacionados que juntos atingem um objetivo comum do negócio 
