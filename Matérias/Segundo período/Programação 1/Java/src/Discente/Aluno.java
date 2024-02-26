@@ -1,4 +1,4 @@
-package Aula_06;
+package Discente;
 
 public class Aluno {
 
