@@ -1,4 +1,7 @@
 package Aula_06;
+
+import Discente.Aluno;
+
 public class Main {
 
 
