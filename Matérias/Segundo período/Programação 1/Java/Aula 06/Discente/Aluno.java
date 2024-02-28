@@ -30,7 +30,7 @@ public class Aluno {
 
 		double teste,prova;
 		
-		double getMedia() {
+		public double getMedia() {
 			
 			return (teste + prova)/2;
 		}
