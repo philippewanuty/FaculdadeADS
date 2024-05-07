@@ -98,44 +98,39 @@
   <tr>
     <td>2º Período</td>
     <td>Design de Software</td>
-    <td><a href="" target="_blank">-----</a></td>
-    <td>-----</td>    
+    <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Matérias/Segundo%20período/Design%20de%20Software" target="_blank">Link</a></td>
+    <td>Nesta disciplina aprendi sobre Estrutura orientada a objetos, seus objetos, classes,componentes e conceitos</td>    
   </tr>
   
  <tr>
     <td>2º Período</td>
     <td>Estrutura de dados e sistemas inteligentes</td>
-    <td><a href="" target="_blank">-----</a></td>
-    <td>-----</td>    
+    <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Matérias/Segundo%20período/Estrutura%20de%20dados%20e%20sistemas%20inteligentes" target="_blank">Link</a></td>
+    <td>Nesta disciplina estudei sobre estrura de dados em Java, entendemos um pouco sobre como funciona algums bibliotecas e seus conceitos, como Pilha, Fila, Lista, Árvores, etc..</td>    
   </tr>
 
    <tr>
     <td>2º Período</td>
     <td>Modelagem de banco de dados</td>
     <td><a href="" target="_blank">-----</a></td>
-    <td>-----</td>    
+    <td>Estudando</td>    
   </tr>
   
   <tr>
     <td>2º Período</td>
     <td>Programação 1</td>
-    <td><a href="" target="_blank">-----</a></td>
-    <td>-----</td>    
+    <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Matérias/Segundo%20período/Programação%201" target="_blank">Link</a></td>
+    <td>Nesta disciplina aprendi tudo sobre Java, sua linguagem, lógica de programação, instalação e uso de suas tecnologias</td>    
   </tr>
 
   <tr>
     <td>2º Período</td>
     <td>Prática integradora de desenvolvimento</td>
     <td><a href="" target="_blank">-----</a></td>
-    <td>-----</td>    
+    <td>Estudando</td>    
   </tr>
 
-  <tr>
-    <td>2º Período</td>
-    <td>Arquitetura de computadores do Sec XXI</td>
-    <td><a href="" target="_blank">-----</a></td>
-    <td>-----</td>    
-  </tr>
+  
   
 </table>
 
