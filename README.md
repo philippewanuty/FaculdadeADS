@@ -111,9 +111,9 @@
 
    <tr>
     <td>2º Período</td>
-    <td>Modelagem de banco de dados</td>
-    <td><a href="" target="_blank">-----</a></td>
-    <td>Estudando</td>    
+    <td>Desenvolvimento de Aplicações de Banco de Dados</td>
+    <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Matérias/Segundo%20período/Desenvolvimento%20de%20Aplicações%20de%20Banco%20de%20Dados" target="_blank">Link</a></td>
+    <td>Nesta Disciplina aprendemos sobre modelagem de banco de dados, como realizar um projeto de criaçãod o banco do zero, comandos SQL, Consultas, Triggers e Integrações.</td>    
   </tr>
   
   <tr>
@@ -125,9 +125,9 @@
 
   <tr>
     <td>2º Período</td>
-    <td>Prática integradora de desenvolvimento</td>
-    <td><a href="" target="_blank">-----</a></td>
-    <td>Estudando</td>    
+    <td>Prática Integradora Tecnologias Disruptivas</td>
+    <td><a href="https://github.com/philippewanuty/FaculdadeADS/tree/main/Matérias/Segundo%20período/Prática%20Integradora%20Tecnologias%20Disruptivas" target="_blank">Link</a></td>
+    <td>Nesta Disciplina tivemos contato com alguns frameworks de desenvolvimento web como react, algumas bibliotecas como Material UI , Bootstrap. aprendemos sobre Banco de dados API e como implementar um projeto.</td>    
   </tr>
 
   
