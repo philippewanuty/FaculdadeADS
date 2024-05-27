@@ -15,11 +15,24 @@
    - Exemplos de declarações DDL incluem: CREATE, ALTER e DROP.
    - Exemplos:
      - CREATE TABLE: Cria uma nova tabela no banco de dados.
+       ```sql
+         CREATE TABLE Funcionarios (
+         ID INT PRIMARY KEY,
+         Nome VARCHAR(50) NOT NULL,
+         Email VARCHAR(100) NOT NULL
+     );
+
+     **Obs: VARCHAR2 para oracle.**
+
      - ALTER TABLE: Modifica a estrutura de uma tabela existente.
      - DROP TABLE: Remove uma tabela ou coluna do banco de dados.
      - TRUNCATE TABLE: Remove todos os registros de uma tabela, mantendo sua estrutura.
      - RENAME TABLE : Renomeia uma tabela existente.
      - DESCRIBE: Ver tabela
+
+      ```sql 
+     DESCRIBE nomeTabela;
+      ```
 
    Para manipular colunas em uma tabela:
 
@@ -42,14 +55,31 @@
    - As declarações DML são usadas para manipular os dados dentro do banco de dados, como inserir, atualizar, excluir e recuperar registros.
    - Exemplos de declarações DML incluem:  INSERT (CREATE), SELECT (READ), UPDATE (UPDATE) e DELETE (DELETE).
    - Exemplos:
-     - INSERT INTO: Adiciona novos registros a uma tabela.
-     - SELECT: Recupera dados de uma ou mais tabelas.
+     - **INSERT INTO:** Adiciona novos registros a uma tabela.
+
+      ```sql
+      INSERT INTO ALUNO (ID_NUMBER, NOME, DAT_MAT, COD_TURMA) 
+      VALUES (1, 'Philippe', TO_DATE('2024-05-26', 'YYYY-MM-DD'), 10);
+      ```
+     - **SELECT:** Recupera dados de uma ou mais tabelas.
         - Mostrar tabela populada:
-        ```sql
-        SELECT * FROM TABELA
-        ```
-     - UPDATE: Modifica os dados existentes em uma tabela.
-     - DELETE FROM: Remove registros de uma tabela.
+
+      ```sql
+      SELECT * FROM TABELA
+      ```
+     - **UPDATE:** Modifica os dados existentes em uma tabela.
+     
+      ```sql
+      UPDATE ALUNO
+      SET NOME = 'Philippe Wanuty'
+      WHERE ID_NUMBER = 1;
+      ```
+     - **DELETE FROM:** Remove registros de uma tabela.
+     
+      ```sql
+      DELETE FROM ALUNO
+      WHERE ID_NUMBER = 1;
+      ```
 
 3. **DCL (Control Language)**:
    - As declarações DCL são usadas para definir e gerenciar permissões de acesso e segurança no banco de dados.
@@ -152,7 +182,18 @@ As cláusulas são partes importantes das instruções SQL que fornecem detalhes
      SELECT * FROM Clientes LIMIT 10 OFFSET 20;
      ```
 
-Essas são apenas algumas das cláusulas mais comuns em SQL. Elas são fundamentais para refinar consultas e operações de manipulação de dados de acordo com os requisitos específicos de cada situação.
+6. **LIKE:** 
+
+   - O operador LIKE é usado em consultas SQL para buscar padrões em colunas de texto. Ele utiliza curingas, como `%` para representar qualquer sequência de caracteres e `_` para representar um único caractere.
+
+   - Exemplos de uso do operador LIKE:
+
+1. `LIKE '%texto%'`: Encontra qualquer string que contenha "texto" em qualquer posição.
+2. `LIKE 'texto%'`: Encontra qualquer string que comece com "texto".
+3. `LIKE '%texto'`: Encontra qualquer string que termine com "texto".
+4. `LIKE '_texto'`: Encontra qualquer string que tenha um caractere qualquer seguido por "texto".
+
+Este operador é útil para buscas flexíveis e parciais em colunas de texto.
 
 
 ## Constraints
