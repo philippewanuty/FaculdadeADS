@@ -18,7 +18,7 @@ EX: Data de nascimento 06/02/93 : idade
 ## Sistema de arquivos
 
 - É uma estrutura que indica como os arquivos devem ser gravados e guardados em mídidas.
-- O sistema de arquivos é quem determina como os arquivos podem ser gravados copiados alterados, nomeados e excluídos. (CRUDE)
+- O sistema de arquivos é quem determina como os arquivos podem ser gravados copiados alterados, nomeados e excluídos. (CRUD)
 - Acesso rápido e otimizado.
 
 

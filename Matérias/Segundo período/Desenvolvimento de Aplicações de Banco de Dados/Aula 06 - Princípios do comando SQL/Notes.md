@@ -31,7 +31,7 @@
      - DESCRIBE: Ver tabela
 
       ```sql 
-     DESCRIBE nomeTabela;
+      DESCRIBE nomeTabela;
       ```
 
    Para manipular colunas em uma tabela:
@@ -51,7 +51,7 @@
 
 
 2. **DML (Data Manipulation Language)**:
->Manipulação de dados da tabela - C R U D
+>Manipulação de dados da tabela - CRUD
    - As declarações DML são usadas para manipular os dados dentro do banco de dados, como inserir, atualizar, excluir e recuperar registros.
    - Exemplos de declarações DML incluem:  INSERT (CREATE), SELECT (READ), UPDATE (UPDATE) e DELETE (DELETE).
    - Exemplos:
