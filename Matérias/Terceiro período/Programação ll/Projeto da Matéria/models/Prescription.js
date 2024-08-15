@@ -13,7 +13,7 @@ const prescriptionSchema = new Schema({
 	},
 	appointmentnId: {
 		type: Number,
-		required: [true, 'appointmentId  is required']
+		required: [true, 'appointment ID  is required']
 	},
 
 	medicine: {
