@@ -25,7 +25,7 @@ const prescriptionSchema = new Schema({
 		required: [true, 'Dosage is required']
 	},
 	instructions: {
-		type: String,
+		type: String
 	},
 	createdAt: {
 		type: Date,

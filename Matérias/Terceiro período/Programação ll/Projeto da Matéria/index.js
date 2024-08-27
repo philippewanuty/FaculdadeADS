@@ -1,6 +1,8 @@
 import  express  from 'express';
 import  pkg  from 'body-parser';
 import  router  from './routes/router.js';
+import db from './database/datebase.js';
+
 
 
 const app = express();
@@ -9,7 +11,6 @@ const PORT = 3000;
 
 app.use(json());
 app.use(urlencoded({ extended: true }));
-
 
 
 app.listen(PORT, function () {
